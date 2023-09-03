@@ -74,7 +74,7 @@ export default function ContactForm() {
 					id="email"
 				/>
 			</div>
-            <div className="w-full items-center flex flex-col my-4 p-5 ">
+            <div className="w-full items-center flex flex-col my-4 p-5 pb-4 ">
 				<label className="font-bold text-white" htmlFor="message">
 					Message
 				</label>
@@ -90,6 +90,7 @@ export default function ContactForm() {
             <div className="itmes-center flex justify-center p-4">
 			<button
 				type="submit"
+				
 				disabled={loading}
 				className= "flex flex-col items-center justify-center rounded w-40  bg-gray-700 disabled:bg-gray-400 disabled:text-gray-700 text-white font-medium mt-4 shadow-lg">
 				Send Message
